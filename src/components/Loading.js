@@ -1,0 +1,63 @@
+import React, { useEffect } from 'react'
+import { motion, useAnimation } from 'framer-motion'
+
+export default function Loader () {
+  const containerAnimationControls = useAnimation()
+
+  useEffect(() => {
+    const animateContainers = async () => {
+      // Animate the v-container
+      await containerAnimationControls.start({
+        transition: { duration: 1.5, delay: 0.5 }
+      })
+
+      await containerAnimationControls.start({
+        y: 0,
+        transition: { duration: 1, delay: 0.5 }
+      })
+
+      await containerAnimationControls.start({
+        opacity: 0,
+        transition: { duration: 1, delay: 0.3 }
+      })
+    }
+
+    animateContainers()
+  }, [containerAnimationControls])
+
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.9)',
+        textAlign: 'center'
+      }}
+    >
+      <motion.div
+        className='v-container'
+        animate={containerAnimationControls}
+        initial={{ y: 800, opacity: 1 }}
+        style={{ width: '100%', maxWidth: '600px' }} 
+      >
+        <h6
+          style={{
+            fontSize: 'clamp(30px, 15vw, 120px)',
+            color: 'gray',
+            margin: 0
+          }}
+        >
+          {' '}
+          <motion.span initial={{ y: '100%' }}>Dev</motion.span>
+          <motion initial={{ y: '100%' }}>Designer</motion>
+        </h6>
+      </motion.div>
+    </div>
+  )
+}

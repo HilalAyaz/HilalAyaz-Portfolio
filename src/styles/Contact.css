@@ -1,0 +1,127 @@
+.contact-container {
+    height: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.glass-effect {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -4px 30px 100px rgba(0, 0, 0, 0.38);
+    border-radius: 10px;
+}
+
+.contact-header {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgba(187, 187, 187, 0.8);
+}
+
+.contact-form {
+    margin-top: 100px;
+}
+
+.contact-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid blueviolet;
+    outline: none;
+    transition: border-bottom 0.3s ease;
+    color: rgba(187, 187, 187, 0.8);
+    font-size: 14px;
+}
+
+.contact-input.name {
+    margin-right: 20px;
+}
+
+.contact-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid blueviolet;
+    outline: none;
+    color: rgba(187, 187, 187, 0.8);
+    transition: border-bottom 0.3s ease;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-right: 10px;
+    color: rgba(187, 187, 187, 0.8);
+}
+
+.contact-info span {
+    color: blueviolet;
+}
+
+.contact-submit {
+    width: 100% !important;
+    max-width: 180px;
+    background-color: blueviolet;
+    padding: 14px 20px;
+    border: none;
+    color: rgba(187, 187, 187, 0.8);
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.contact-submit:hover {
+    background-color: rgb(138, 43, 226, .7);
+}
+
+@media screen and (max-width: 900px) {
+    .contact-container {
+        padding: 40px;
+        margin: 100px auto;
+        height: auto;
+    }
+
+    .contact-form {
+        margin-top: 80px;
+    }
+
+    .contact-input-container {
+        flex-direction: column;
+    }
+
+    .contact-input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+
+    .contact-input.name {
+        margin-right: 0;
+    }
+}

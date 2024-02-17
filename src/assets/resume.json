@@ -1,0 +1,328 @@
+{
+  "name": "HILAL AYAZ",
+  "title": "Full Stack Web Developer",
+  "aboutMe": "I am also a dog lover 🐶, art lover 🎨, travel addict ✈️, and motorcycle enthusiast 🏍️",
+  "contact": {
+    "email": "hilaalbusines@outlook.com",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/itshilaal",
+      "username": "@itshilaal"
+    },
+    "github": {
+      "url": "https://github.com/HilalAyaz",
+      "username": "HilalAyaz"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/your-facebook-profile",
+      "username": "your-facebook-username"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/your-instagram-profile",
+      "username": "your-instagram-username"
+    },
+    "twitter": {
+      "url": "https://twitter.com/your-twitter-profile",
+      "username": "your-twitter-username"
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/user/your-youtube-channel",
+      "username": "your-youtube-username"
+    },
+    "codepen": {
+      "url": "https://codepen.io/your-codepen-profile",
+      "username": "your-codepen-username"
+    },
+    "stackoverflow": {
+      "url": "https://stackoverflow.com/users/your-stackoverflow-profile",
+      "username": "your-stackoverflow-username"
+    },
+    "medium": {
+      "url": "https://medium.com/@your-medium-profile",
+      "username": "your-medium-username"
+    },
+    "behance": {
+      "url": "https://www.behance.net/your-behance-profile",
+      "username": "your-behance-username"
+    },
+    "location": "Pakistan"
+  },
+  "summary": "As a Junior Web Developer, I specialize in deciphering intricate codes and translating creative visions into sophisticated websites with elegant designs. I am committed to staying abreast of technological advancements to deliver cutting-edge solutions that bring visions to life with flair and finesse.",
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science",
+      "university": "Sarhad University of Science and Information Technology, Peshawar",
+      "dates": "2018-2023",
+      "url": "/",
+      "image_url": "Bachelor's in Computer Science Certificate"
+    },
+    {
+      "degree": "META Front-End Developer",
+      "university": "Coursera",
+      "dates": "June 2023",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/RN3ZNVPTLYJF",
+      "image_url": "frontend Certificate"
+    },
+    {
+      "degree": "MERN Stack Developer",
+      "university": "Nexusberry Institutedan",
+      "dates": "September 2023",
+      "url": "https://www.nexusberry.com/verify/518",
+      "image_url": " Certificate"
+    },
+    {
+      "degree": "Intermediate",
+      "university": "Peshawar Model Degree College, Mardan",
+      "dates": "2016-2018",
+      "url": "/",
+      "image_url": "Intermediate Certificate"
+    },
+    {
+      "degree": "Matriculation",
+      "university": "Peshawar Model School, Mardan",
+      "dates": "2014-2016",
+      "url": "/",
+      "image_url": "Matriculation Certificate"
+    }
+  ],
+  "experience": [
+    {
+      "title": "",
+      "platform": "",
+      "date": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "platform": "",
+      "date": "",
+      "link": ""
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Machine Learning with Python: Foundations",
+      "platform": "LinkedIn Learning",
+      "date": "May 2023",
+      "link": "https://www.linkedin.com/learning/certificates/6813181cf9cb302cc64f95f472093432d35b78aef67eb2ddd2af0994ec7c2919",
+      "image_url": "Machine Learning with Python: Foundations Certificate"
+    },
+    {
+      "title": "Meta Front-End Developer Certificate Badge",
+      "platform": "Coursera",
+      "date": "June 2023",
+      "link": " https://www.credly.com/go/lIdY9xkU",
+      "image_url": "Meta Front-End Developer Certificate Badge"
+    },
+    {
+      "title": "AI for Everyone",
+      "platform": "Coursera",
+      "date": "May 2023",
+      "link": "https://www.coursera.org/account/accomplishments/certificate/PWGPZTH2BW7Z",
+      "image_url": "AI for Everyone Certificate"
+    },
+    {
+      "title": "Critical Thinking and Problem Solving",
+      "platform": "LinkedIn Learning",
+      "date": "June 2023",
+      "link": "https://www.linkedin.com/learning/certificates/443538a031442823bbebe73bead539e6e0876503786ba39d17cc909bf518ec2a",
+      "image_url": "Critical Thinking and Problem Solving Certificate"
+    },
+    {
+      "title": "Developing Back-End Apps with Node.js and Express",
+      "platform": "Coursera",
+      "date": "October 2023",
+      "link": "https://www.coursera.org/account/accomplishments/certificate/USNK8A2CJXGD",
+      "image_url": "Developing Back-End Apps with Node.js and Express Certificate"
+    },
+    {
+      "title": "Hands-on Introduction: React",
+      "platform": "LinkedIn Learning",
+      "date": "June 2023",
+      "link": "https://www.linkedin.com/learning/certificates/9851ba8ee32ab1a0368ea1d18a8d1949727aa965362cf44966ae18b5d49929c3",
+      "image_url": "Hands-on Introduction: React Certificate"
+    },
+    {
+      "title": "Node.js Essential Training",
+      "platform": "LinkedIn Learning",
+      "date": "June 2023",
+      "link": "https://www.linkedin.com/learning/certificates/58fa6516434a9fe039a9c7733659d7ca8f91afa29376d680cad9b31a9aab8a13",
+      "image_url": "Node.js Essential Training Certificate"
+    },
+    {
+      "title": "Introduction to MongoDB",
+      "platform": "Coursera",
+      "date": "October 2023",
+      "link": "https://www.coursera.org/account/accomplishments/certificate/YRYFSRP44ECU",
+      "image_url": "Introduction to MongoDB Certificate"
+    },
+    {
+      "title": "Intro to Prompt Engineering for Generative AI",
+      "platform": "LinkedIn Learning",
+      "date": "May 2023",
+      "link": "https://www.linkedin.com/learning/certificates/3b29bf0c3c6388d4c443d4840e8456251f35ba4822eb58386f92196c293dab93",
+      "image_url": "Intro to Prompt Engineering for Generative AI Certificate"
+    },
+    {
+      "title": "Business Analytics with Excel",
+      "platform": "Simplilearn",
+      "date": "January 2023",
+      "link": "https://simpli-web.app.link/e/OtxbBFJcgxb",
+      "image_url": "Business Analytics with Excel Certificate"
+    },
+
+    {
+      "title": "Data Science with Python",
+      "platform": "Simplilearn",
+      "date": "January 2023",
+      "link": "https://simpli-web.app.link/e/vhVqIy2ebxb",
+      "image_url": "Data Science with Python Certificate"
+    },
+    {
+      "title": "JavaScript: Under the Hood",
+      "platform": "LinkedIn Learning",
+      "date": "May 2023",
+      "link": "https://www.linkedin.com/learning/certificates/4ed89420969bc44acd7ba95f7d494347675e1002ca9708748c64cbe28db017e7",
+      "image_url": "JavaScript: Under the Hood certificate"
+    },
+    {
+      "title": "Introduction to Data Analytics",
+      "platform": "Simplilearn",
+      "date": "January 2023",
+      "link": "https://simpli-web.app.link/e/5LMIpJ4vFwb",
+      "image_url": "Introduction to Data Analytics Certificate"
+    },
+    {
+      "title": "Programming with Python 3.X",
+      "platform": "Simplilearn",
+      "date": "January 2023",
+      "link": "https://simpli-web.app.link/e/bftyJsq6Ywb",
+      "image_url": "Programming with Python 3.X Certificate"
+    },
+    {
+      "title": "Crash Course on Python",
+      "platform": "Coursera",
+      "date": "June 2023",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/7E2TYY8F26HD",
+      "image_url": "Crash Course on Python Certificate"
+    }
+  ],
+  "expertise": {
+    "web_development": [
+      "JavaScript",
+      "Reactjs",
+      "HTML",
+      "CSS",
+      "NEXTjs",
+      "TypeScript"
+    ],
+    "rest_api": ["Node", "Express"],
+    "data_analysis": ["Python"],
+    "version_control": ["Git", "Github"],
+    "project_management": ["Planning", "Organizing", "Executing projects"],
+    "database_management": ["MySQL", "MongoDB"]
+  },
+  "projects": [
+    {
+      "name": "Quiz App",
+      "url": "https://onlinequizbyhilal.netlify.app/",
+      "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
+    },
+    {
+      "name": "Weather App",
+      "url": "https://weather-app-devdesigner.netlify.app/",
+      "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
+    },
+    {
+      "name": "Note-Taking App",
+      "url": "https://note-taking-by-hilal.netlify.app/",
+      "description": "A simple yet powerful note-taking application created with ReactJS, allowing users to write, edit, and organize their notes efficiently."
+    },
+    {
+      "name": "Hangman",
+      "url": "https://hangman-game-devdesigner.netlify.app/",
+      "description": "The traditional word-guessing game, Hangman, developed with React TypeScript (ReactTS), providing users with a challenging and entertaining gameplay experience."
+    },
+    {
+      "name": "Random Quote Generator",
+      "url": "https://quotes-devdesigner.netlify.app/",
+      "description": "A web application built with ReactJS, fetching and displaying random quotes from a variety of sources to inspire and motivate users."
+    },
+    {
+      "name": "POS App",
+      "url": "https://pos-app-practice.netlify.app/",
+      "description": "A point-of-sale application built with ReactJS, designed to streamline sales transactions, manage inventory, and generate reports for business owners."
+    },
+
+    {
+      "name": "Currency Converter",
+      "url": "https://currencyconvert-devdesigner.netlify.app/",
+      "description": "A currency conversion tool created with ReactJS, enabling users to quickly and accurately convert between different currencies with up-to-date exchange rates."
+    },
+    {
+      "name": "Fitness Quiz",
+      "url": "https://fitness-quiz-app.netlify.app/",
+      "description": "An interactive fitness quiz developed with ReactJS, allowing users to test their knowledge of health, nutrition, and exercise-related topics."
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://devdesignerpk.netlify.app/",
+      "description": "A personal portfolio website developed using HTML and Tailwind CSS."
+    },
+    {
+      "name": "Ahadees App",
+      "url": "https://ahadees-sahihbukhari.netlify.app/",
+      "description": "A simple app containing Ahadees of Sahih Bukhari, developed using Reactjs."
+    },
+    {
+      "name": "Simple Portfolio",
+      "url": "https://hilalayaz-portfolio-practice.netlify.app/",
+      "description": "A simple portfolio developed using HTML and CSS"
+    },
+    {
+      "name": "Practice with Redux",
+      "url": "https://redux-prac-hilal.netlify.app/",
+      "description": "A simple counter app made with Reactjs using Redux"
+    },
+
+    {
+      "name": "Landing Page",
+      "url": "https://gaming-shop-devdesigner.netlify.app/",
+      "description": "A visually appealing landing page created with ReactJS, designed to captivate visitors and encourage engagement with its content."
+    },
+    {
+      "name": "Rock-Paper-Scissors",
+      "url": "https://rockpaperscissor-devdesigner.netlify.app/",
+      "description": "A classic game of Rock-Paper-Scissors implemented using HTML and CSS."
+    }
+  ],
+  "skills": {
+    "hard_skills": [
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Python",
+      "React.js",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Version Control (Git)",
+      "Github",
+      "Bootstrap",
+      "TailwindCSS",
+      "SQL"
+    ],
+    "soft_skills": [
+      "Critical Thinking",
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Leadership",
+      "Time Management",
+      "Adaptability",
+      "Analytical Skills",
+      "Attention to Detail",
+      "Strong Work Ethic"
+    ],
+    "languages": ["English", "Urdu", "Pashto"]
+  }
+}

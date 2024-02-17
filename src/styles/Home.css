@@ -1,0 +1,222 @@
+.main-text {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.glass-effect {
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.main-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: rgba(187, 187, 187, 0.8);
+    border-bottom: 3px solid rgba(137, 43, 226, 0.918);
+
+}
+
+.main-text h1 {
+    font-size: 80px;
+    color: rgba(187, 187, 187, 0.8);
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: blueviolet;
+    letter-spacing: 3px;
+}
+
+p {
+    color: rgba(219, 219, 219, 0.8);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+h4 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: rgba(219, 219, 219, 0.8);
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.tech-icons {
+    margin: 20px 0;
+
+}
+
+.social-icons {
+    margin: 20px 0;
+    position: relative;
+
+
+}
+
+.social-icons:hover {
+    margin: 20px 0;
+    transform: translateY(100px);
+
+}
+
+.social-icons a {
+    margin-right: 20px;
+    font-size: 32px;
+    color: rgba(187, 187, 187, 0.8);
+    transition: color 0.3s ease;
+}
+
+
+.social-icons a[title]::after {
+    content: attr(title);
+    position: absolute;
+    transform: translateX(-50%);
+    margin: 30px;
+    text-align: center;
+    padding: 5px 3px;
+    width: 90px;
+    background-color: rgba(137, 43, 226, 0.5);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.social-icons a:hover::after {
+    opacity: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+button {
+    position: relative;
+    width: 160px;
+    background-color: blueviolet;
+    padding: 12px 10px;
+    border: none;
+    color: rgba(187, 187, 187, 0.8);
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.last-button {
+    width: 180px;
+
+}
+
+button .icon {
+    opacity: 0;
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    top: 13px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.last-button .icon {
+    top: 7px;
+    right: 10px;
+}
+
+
+button:hover {
+    background-color: rgb(138, 43, 226, .5);
+    transition: .5s ease, transform 1s ease;
+}
+
+button:hover .icon {
+    opacity: 1;
+    transform: translateX(8px);
+}
+
+.last-button:hover .icon {
+    transform: translateY(8px);
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+    h2 {
+        font-size: 32;
+        letter-spacing: 0.5vw;
+    }
+
+    .main-text h1 {
+        font-size: 60px;
+    }
+
+    span {
+        letter-spacing: 0.2vw;
+    }
+
+    h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+    }
+
+    .tech-icons {
+        font-size: 5vw;
+    }
+
+    button {
+        width: 130px !important;
+        ;
+        padding: 12px 12px !important;
+        font-size: 16px !important;
+    }
+
+    .last-button {
+        width: 160px !important;
+        ;
+        padding: 12px 10px 8px !important;
+        font-size: 16px !important;
+    }
+
+    button .icon {
+
+        right: 15px;
+        top: 13px;
+    }
+
+    .last-button .icon {
+        top: 7px;
+        right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .button-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
