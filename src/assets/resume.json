@@ -13,36 +13,36 @@
       "username": "HilalAyaz"
     },
     "facebook": {
-      "url": "https://www.facebook.com/your-facebook-profile",
+      "url": "#",
       "username": "your-facebook-username"
     },
     "instagram": {
-      "url": "https://www.instagram.com/your-instagram-profile",
-      "username": "your-instagram-username"
+      "url": "https://www.instagram.com/devdesignerpk",
+      "username": "devdesignerpk"
     },
     "twitter": {
-      "url": "https://twitter.com/your-twitter-profile",
+      "url": "#",
       "username": "your-twitter-username"
     },
     "youtube": {
-      "url": "https://www.youtube.com/user/your-youtube-channel",
-      "username": "your-youtube-username"
+      "url": "https://www.youtube.com/@DevDesignerpk",
+      "username": "DevDesignerpk"
     },
     "codepen": {
-      "url": "https://codepen.io/your-codepen-profile",
-      "username": "your-codepen-username"
+      "url": "https://codepen.io/HilalAyaz",
+      "username": "HilalAyaz"
     },
     "stackoverflow": {
-      "url": "https://stackoverflow.com/users/your-stackoverflow-profile",
+      "url": "#",
       "username": "your-stackoverflow-username"
     },
     "medium": {
-      "url": "https://medium.com/@your-medium-profile",
+      "url": "#",
       "username": "your-medium-username"
     },
     "behance": {
-      "url": "https://www.behance.net/your-behance-profile",
-      "username": "your-behance-username"
+      "url": "https://www.behance.net/hilalayaz",
+      "username": "hilalayaz"
     },
     "location": "Pakistan"
   },
@@ -52,7 +52,7 @@
       "degree": "Bachelor's in Computer Science",
       "university": "Sarhad University of Science and Information Technology, Peshawar",
       "dates": "2018-2023",
-      "url": "/",
+      "url": "#",
       "image_url": "Bachelor's in Computer Science Certificate"
     },
     {
@@ -64,23 +64,23 @@
     },
     {
       "degree": "MERN Stack Developer",
-      "university": "Nexusberry Institutedan",
+      "university": "NexusBerry Training and Solutions",
       "dates": "September 2023",
       "url": "https://www.nexusberry.com/verify/518",
-      "image_url": " Certificate"
+      "image_url": "Certificate"
     },
     {
       "degree": "Intermediate",
       "university": "Peshawar Model Degree College, Mardan",
       "dates": "2016-2018",
-      "url": "/",
+      "url": "#",
       "image_url": "Intermediate Certificate"
     },
     {
       "degree": "Matriculation",
       "university": "Peshawar Model School, Mardan",
       "dates": "2014-2016",
-      "url": "/",
+      "url": "#",
       "image_url": "Matriculation Certificate"
     }
   ],
@@ -323,6 +323,6 @@
       "Attention to Detail",
       "Strong Work Ethic"
     ],
-    "languages": ["English", "Urdu", "Pashto"]
+    "languages": ["English-Advanced", "Urdu-Fluent", "Pashto-Native"]
   }
 }
