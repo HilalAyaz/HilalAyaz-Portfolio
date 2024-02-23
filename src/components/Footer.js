@@ -39,7 +39,7 @@ const Footer = () => {
   }
 
   const scrollToTop = () => {
-    const scrollStep = -window.scrollY / (2000 / 15) // Adjust the speed here (500 milliseconds in this example)
+    const scrollStep = -window.scrollY / (1500 / 15) // Adjust the speed here (500 milliseconds in this example)
     const scrollInterval = setInterval(() => {
       if (window.scrollY !== 0) {
         window.scrollBy(0, scrollStep)
