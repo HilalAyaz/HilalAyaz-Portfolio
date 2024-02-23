@@ -1,12 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import '../styles/Contact.css'
+import { useForm, ValidationError } from '@formspree/react'
 
 const ContactForm = () => {
-  const handleSubmit = e => {
-    e.preventDefault()
-    // form submission handling
-  }
+  const [state, handleSubmit] = useForm('xayrjndb')
 
   return (
     <motion.div
@@ -49,20 +47,31 @@ const ContactForm = () => {
           <div>
             <textarea
               className='contact-textarea'
-              disabled
               cols='40'
               rows='10'
-              placeholder='Apologies, the form submission feature is currently unavailable. I am working to integrate it soon.'
+              placeholder='Type your message here...'
               name='message'
             ></textarea>
           </div>
+          <ValidationError
+            prefix='Message'
+            field='message'
+            errors={state.errors}
+          />
           <div>
-            <button className='contact-submit' type='submit' disabled>
-              Send message
+            <button
+              className='contact-submit'
+              type='submit'
+              disabled={state.submitting}
+            >
+              {state.submitting ? 'Sending...' : 'Send message'}
             </button>
           </div>
         </form>
       </motion.section>
+      {state.succeeded && (
+        <p>Thank you for your message! We will get back to you soon.</p>
+      )}
     </motion.div>
   )
 }
