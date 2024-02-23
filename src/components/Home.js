@@ -23,9 +23,8 @@ const Home = () => {
   const { name, title, aboutMe, contact } = resumeData
 
   const handleDownload = () => {
-    const pdfUrl = { CV }
     const link = document.createElement('a')
-    link.href = pdfUrl
+    link.href = CV
     link.download = 'HilalAyaz-CV.pdf'
     document.body.appendChild(link)
     link.click()

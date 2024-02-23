@@ -208,30 +208,33 @@
   ],
   "expertise": {
     "web_development": [
-      "JavaScript",
-      "Reactjs",
       "HTML",
       "CSS",
-      "NEXTjs",
-      "TypeScript"
+      "JavaScript",
+      "TypeScript",
+      "Reactjs",
+      "NEXTjs"
     ],
     "rest_api": ["Node", "Express"],
     "data_analysis": ["Python"],
     "version_control": ["Git", "Github"],
     "project_management": ["Planning", "Organizing", "Executing projects"],
-    "database_management": ["MySQL", "MongoDB"]
+    "database_management": ["MySQL", "MongoDB"],
+    "microsoft_office": ["Excel", "Word", "PowerPoint"],
+    "ui_library": ["Tailwind", "Bootstrap", "Material UI", "Daisy UI"]
   },
   "projects": [
-    {
-      "name": "Quiz App",
-      "url": "https://onlinequizbyhilal.netlify.app/",
-      "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
-    },
     {
       "name": "Weather App",
       "url": "https://weather-app-devdesigner.netlify.app/",
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
     },
+    {
+      "name": "Quiz App",
+      "url": "https://onlinequizbyhilal.netlify.app/",
+      "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
+    },
+
     {
       "name": "Note-Taking App",
       "url": "https://note-taking-by-hilal.netlify.app/",
@@ -250,7 +253,7 @@
     {
       "name": "POS App",
       "url": "https://pos-app-practice.netlify.app/",
-      "description": "A point-of-sale application built with ReactJS, designed to streamline sales transactions, manage inventory, and generate reports for business owners."
+      "description": "A point-of-sale front-end application built with ReactJS, designed to streamline sales transactions, manage inventory, and generate reports for business owners."
     },
 
     {
@@ -309,7 +312,8 @@
       "Github",
       "Bootstrap",
       "TailwindCSS",
-      "SQL"
+      "SQL",
+      "MS Office"
     ],
     "soft_skills": [
       "Critical Thinking",

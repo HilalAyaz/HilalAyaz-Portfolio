@@ -80,12 +80,32 @@ const Resume = () => {
         transition={{ duration: 1, delay: 0.6 }}
       >
         <h3>Expertise</h3>
-        <p>Web Development: {expertise.web_development.join(', ')}</p>
-        <p>REST API: {expertise.rest_api.join(', ')}</p>
-        <p>Data Analysis: {expertise.data_analysis.join(', ')}</p>
-        <p>Version Control: {expertise.version_control.join(', ')}</p>
-        <p>Project Management: {expertise.project_management.join(', ')}</p>
-        <p>Database Management: {expertise.database_management.join(', ')}</p>
+        <p>
+          <span> Web Development:</span> {expertise.web_development.join(', ')}
+        </p>
+        <p>
+          <span>UI Libraries:</span> {expertise.ui_library.join(', ')}
+        </p>
+        <p>
+          <span>REST API:</span> {expertise.rest_api.join(', ')}
+        </p>
+        <p>
+          <span>Data Analysis:</span> {expertise.data_analysis.join(', ')}
+        </p>
+        <p>
+          <span>Version Control:</span> {expertise.version_control.join(', ')}
+        </p>
+        <p>
+          <span>Project Management:</span>{' '}
+          {expertise.project_management.join(', ')}
+        </p>
+        <p>
+          <span>Database Management:</span>{' '}
+          {expertise.database_management.join(', ')}
+        </p>
+        <p>
+          <span>Microsoft Office:</span> {expertise.microsoft_office.join(', ')}
+        </p>
       </motion.div>
 
       <motion.div
