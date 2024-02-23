@@ -5,7 +5,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaArrowCircleRight,
-  FaTwitter,
   FaYoutube,
   FaCodepen,
   FaStackOverflow,
@@ -13,11 +12,13 @@ import {
   FaBehance,
   FaArrowCircleDown
 } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
 import CV from '../assets/HilalAyaz-CV.pdf'
 import resumeData from '../assets/resume.json'
-import IconComponent from './tech-stack.js'
+import TechStack from './tech-stack.js'
 
 const Home = () => {
   const { name, title, aboutMe, contact } = resumeData
@@ -54,7 +55,7 @@ const Home = () => {
         transition={{ duration: 1, delay: 1.1 }}
       >
         <h4>My Tech Stack:</h4>
-        <IconComponent />
+        <TechStack />
       </motion.div>
       <motion.div
         className='social-icons'
@@ -101,7 +102,7 @@ const Home = () => {
           rel='noreferrer'
           title='Twitter'
         >
-          <FaTwitter style={{ color: '#1da1f2' }} />
+          <FaXTwitter style={{ color: '#14171A' }} />
         </a>
         <a
           href={contact.youtube.url}
