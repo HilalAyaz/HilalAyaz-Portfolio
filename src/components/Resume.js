@@ -49,6 +49,36 @@ const Resume = () => {
         <h3>Summary</h3>
         <p>{summary}</p>
       </motion.div>
+      <motion.div
+        className='section contact'
+        initial={{ opacity: 0, x: 200 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, delay: 0.3 }}
+      >
+        <h3>Contact</h3>
+        <p>
+          <FiMail /> Email:{' '}
+          <a href='mailto:{contact.email}' className='link'>
+            Write Email to me
+          </a>
+        </p>
+
+        <p>
+          <FiLinkedin /> LinkedIn:{' '}
+          <a href={contact.linkedin.url} className='link'>
+            {contact.linkedin.username} <FiExternalLink className='icons' />
+          </a>
+        </p>
+        <p>
+          <FiGithub /> GitHub:{' '}
+          <a href={contact.github.url} className='link'>
+            {contact.github.username} <FiExternalLink className='icons' />
+          </a>
+        </p>
+        <p>
+          <FaMapLocationDot /> Location: {contact.location}
+        </p>
+      </motion.div>
 
       <motion.div
         className='section education'
@@ -108,7 +138,6 @@ const Resume = () => {
         </p>
       </motion.div>
 
-      
       <motion.div
         className='section certifications'
         initial={{ opacity: 0, x: -200 }}
@@ -127,36 +156,7 @@ const Resume = () => {
           </div>
         ))}
       </motion.div>
-      <motion.div
-        className='section contact'
-        initial={{ opacity: 0, x: 200 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, delay: 0.3 }}
-      >
-        <h3>Contact</h3>
-        <p>
-          <FiMail /> Email:{' '}
-          <a href='mailto:{contact.email}' className='link'>
-            Write Email to me
-          </a>
-        </p>
 
-        <p>
-          <FiLinkedin /> LinkedIn:{' '}
-          <a href={contact.linkedin.url} className='link'>
-            {contact.linkedin.username} <FiExternalLink className='icons' />
-          </a>
-        </p>
-        <p>
-          <FiGithub /> GitHub:{' '}
-          <a href={contact.github.url} className='link'>
-            {contact.github.username} <FiExternalLink className='icons' />
-          </a>
-        </p>
-        <p>
-          <FaMapLocationDot /> Location: {contact.location}
-        </p>
-      </motion.div>
       <motion.div
         className='section skills'
         initial={{ opacity: 0, x: -200 }}
