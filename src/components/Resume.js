@@ -108,25 +108,7 @@ const Resume = () => {
         </p>
       </motion.div>
 
-      <motion.div
-        className='section projects'
-        initial={{ opacity: 0, x: 200 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, delay: 0.7 }}
-      >
-        <h3>Projects</h3>
-        {projects.map((project, index) => (
-          <div key={index} className='project-item'>
-            <p>
-              {' '}
-              <a href={project.url} className='project-link'>
-                {project.name} <FiLink2 className='icons' />
-              </a>
-            </p>
-            <p className='project-description'>{project.description}</p>
-          </div>
-        ))}
-      </motion.div>
+      
       <motion.div
         className='section certifications'
         initial={{ opacity: 0, x: -200 }}
