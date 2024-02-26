@@ -230,12 +230,12 @@
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
     },
     {
-      "name": "Quiz App",
+      "name": "Tea House Site",
       "url": "https://chaipeelo-devdesigner.netlify.app/",
       "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface."
     },
     {
-      "name": "Tea House Site",
+      "name": "Quiz App",
       "url": "https://onlinequizbyhilal.netlify.app/",
       "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
     },
