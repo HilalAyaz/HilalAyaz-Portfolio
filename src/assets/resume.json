@@ -46,7 +46,7 @@
     },
     "location": "Pakistan"
   },
-  "summary": "As a Junior Web Developer, I specialize in deciphering intricate codes and translating creative visions into sophisticated websites with elegant designs. I am committed to staying abreast of technological advancements to deliver cutting-edge solutions that bring visions to life with flair and finesse.",
+  "summary": "Skilled web developer with a Bachelor's degree in Computer Science from Sarhad University, adept at creating dynamic and user-friendly websites. Proficient in various programming languages and frameworks to deliver high-quality digital solutions.",
   "education": [
     {
       "degree": "Bachelor's in Computer Science",
@@ -237,7 +237,7 @@
     {
       "name": "Quiz App",
       "url": "https://onlinequizbyhilal.netlify.app/",
-      "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
+      "description": "An simple quiz platform developed with the MERN stack where users can take quiz and check their performance."
     },
 
     {
