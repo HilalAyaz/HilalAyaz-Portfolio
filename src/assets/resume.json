@@ -231,6 +231,11 @@
     },
     {
       "name": "Quiz App",
+      "url": "https://chaipeelo-devdesigner.netlify.app/",
+      "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface."
+    },
+    {
+      "name": "Tea House Site",
       "url": "https://onlinequizbyhilal.netlify.app/",
       "description": "An interactive quiz platform developed with the MERN stack, offering users the ability to create and participate in quizzes on various topics."
     },
