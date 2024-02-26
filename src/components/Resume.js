@@ -1,12 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import {
-  FiMail,
-  FiLinkedin,
-  FiGithub,
-  FiExternalLink,
-  FiLink2
-} from 'react-icons/fi'
+import { FiMail, FiLinkedin, FiGithub, FiExternalLink } from 'react-icons/fi'
 import { FaMapLocationDot } from 'react-icons/fa6'
 import resumeData from '../assets/resume.json'
 import '../styles/Resume.css'
@@ -20,7 +14,6 @@ const Resume = () => {
     education,
     certifications,
     expertise,
-    projects,
     skills
   } = resumeData
 
