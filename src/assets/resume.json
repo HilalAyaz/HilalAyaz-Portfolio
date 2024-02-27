@@ -251,6 +251,11 @@
       "description": "The traditional word-guessing game, Hangman, developed with React TypeScript (ReactTS), providing users with a challenging and entertaining gameplay experience."
     },
     {
+      "name": "Card Flip Memory Game",
+      "url": "cardflip-game-devdesigner.netlify.app",
+      "description": "A Card Flipping game, developed with ReactJs, providing users with a challenging and entertaining gameplay experience."
+    },
+    {
       "name": "Random Quote Generator",
       "url": "https://quotes-devdesigner.netlify.app/",
       "description": "A web application built with ReactJS, fetching and displaying random quotes from a variety of sources to inspire and motivate users."
