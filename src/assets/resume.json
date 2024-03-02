@@ -230,9 +230,14 @@
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
     },
     {
-      "name": "Tea House Site",
+      "name": "Tea House Site UI/UX",
       "url": "https://chaipeelo-devdesigner.netlify.app/",
       "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface for browsing, booking, and making reservations."
+    },
+    {
+      "name": "Brainwave UI/UX",
+      "url": "https://brainwave-devdesigner.netlify.app/",
+      "description": "A UI/UX website developed with ReactJs and Tailwindcss. It provides an interactive and user-friendly interface with a modern and clean design with animations using AOS library."
     },
     {
       "name": "Quiz App",
