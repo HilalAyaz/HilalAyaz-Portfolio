@@ -225,6 +225,11 @@
   },
   "projects": [
     {
+      "name": "AI-Prompt App",
+      "url": "https://next-ai-prompt-sepia.vercel.app/",
+      "description": "Inspiro is a Fullstack Website that empowers creators with the ability to create, delete, and update AI prompts, all while ensuring security through Google authentication. Built with Next.js 14 and Tailwind CSS, this full-stack application enables tech enthusiasts to explore and refine their ideas with ease."
+    },
+    {
       "name": "Weather App",
       "url": "https://weather-app-devdesigner.netlify.app/",
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
