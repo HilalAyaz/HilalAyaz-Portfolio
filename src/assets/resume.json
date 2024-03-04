@@ -212,16 +212,16 @@
       "CSS",
       "JavaScript",
       "TypeScript",
-      "Reactjs",
-      "NEXTjs"
+      "ReactJs",
+      "NextJs"
     ],
     "rest_api": ["Node", "Express"],
     "data_analysis": ["Python"],
     "version_control": ["Git", "Github"],
     "project_management": ["Planning", "Organizing", "Executing projects"],
-    "database_management": ["MySQL", "MongoDB"],
+    "database_management": ["MySQL", "MongoDB", "Mongoose"],
     "microsoft_office": ["Excel", "Word", "PowerPoint"],
-    "ui_library": ["Tailwind", "Bootstrap", "Material UI", "Daisy UI"]
+    "ui_library": ["Tailwindcss", "Bootstrap5", "Material UI"]
   },
   "projects": [
     {
