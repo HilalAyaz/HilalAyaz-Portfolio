@@ -232,17 +232,21 @@
     {
       "name": "Weather App",
       "url": "https://weather-app-devdesigner.netlify.app/",
-      "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide."
+      "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide. The website is responsive and can be used on any device."
     },
     {
+      "name": "Modern Bank UI/UX",
+      "url": "https://bank-app-devdesigner.netlify.app/",
+      "description": "A modern bank website built with ReactJs and Tailwindcss. It provides a user-friendly interface. The website is responsive and can be used on any device."
+    },{
       "name": "Tea House Site UI/UX",
       "url": "https://chaipeelo-devdesigner.netlify.app/",
-      "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface for browsing, booking, and making reservations."
+      "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface for browsing, booking, and making reservations. The website is responsive and can be used on any device."
     },
     {
       "name": "Brainwave UI/UX",
       "url": "https://brainwave-devdesigner.netlify.app/",
-      "description": "A UI/UX website developed with ReactJs and Tailwindcss. It provides an interactive and user-friendly interface with a modern and clean design with animations using AOS library."
+      "description": "A UI/UX website developed with ReactJs and Tailwindcss. It provides an interactive and user-friendly interface with a modern and clean design with animations using AOS library. The website is responsive and can be used on any device."
     },
     {
       "name": "Quiz App",
