@@ -225,7 +225,12 @@
   },
   "projects": [
     {
-      "name": "AI-Prompt App",
+      "name": "Full Stack Event Manager App",
+      "url": "https://nextjs-event-manager-mu.vercel.app/",
+      "description": "Event Hub is a Full Stack Web App that enables users to create and manage events. It is built with Next.js 14 and TypeScript, ensuring a seamless user experience. User Authentication is handled by Clerk, payments are handled by Stripe and the events are stored in MongoDB.The app is responsive and can be used on any device."
+    },
+    {
+      "name": "Full Stack Prompt App",
       "url": "https://next-ai-prompt-sepia.vercel.app/",
       "description": "Inspiro is a Fullstack Website that empowers creators with the ability to create, delete, and update AI prompts, all while ensuring security through Google authentication. Built with Next.js 14 and Tailwind CSS, this full-stack application enables tech enthusiasts to explore and refine their ideas with ease."
     },
@@ -238,7 +243,8 @@
       "name": "Modern Bank UI/UX",
       "url": "https://bank-app-devdesigner.netlify.app/",
       "description": "A modern bank website built with ReactJs and Tailwindcss. It provides a user-friendly interface. The website is responsive and can be used on any device."
-    },{
+    },
+    {
       "name": "Tea House Site UI/UX",
       "url": "https://chaipeelo-devdesigner.netlify.app/",
       "description": "A tea house website developed with the Reactjs and Tailwindcss. It provides a user-friendly interface for browsing, booking, and making reservations. The website is responsive and can be used on any device."
