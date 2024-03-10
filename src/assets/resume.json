@@ -255,6 +255,11 @@
       "description": "A UI/UX website developed with ReactJs and Tailwindcss. It provides an interactive and user-friendly interface with a modern and clean design with animations using AOS library. The website is responsive and can be used on any device."
     },
     {
+      "name": "Snake Game in Python",
+      "url": "https://github.com/HilalAyaz/snake-game-python",
+      "description": "Classic Snake Game implemented in Python using Pygame library. Eat food, avoid obstacles, and grow your snake to achieve a high score!"
+    },
+    {
       "name": "Quiz App",
       "url": "https://onlinequizbyhilal.netlify.app/",
       "description": "An simple quiz platform developed with the MERN stack where users can take quiz and check their performance."
