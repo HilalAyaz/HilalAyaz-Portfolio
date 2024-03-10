@@ -260,6 +260,11 @@
       "description": "Classic Snake Game implemented in Python using Pygame library. Eat food, avoid obstacles, and grow your snake to achieve a high score!"
     },
     {
+      "name": "Text Analysis in Python",
+      "url": "https://github.com/HilalAyaz/text-analysis-python",
+      "description": "Text Analysis App utilizes Flask and NLTK to offer quick insights into text content, including paragraph, sentence, word, and character counts, alongside identifying the most common words."
+    },
+    {
       "name": "Quiz App",
       "url": "https://onlinequizbyhilal.netlify.app/",
       "description": "An simple quiz platform developed with the MERN stack where users can take quiz and check their performance."
