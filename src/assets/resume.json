@@ -240,6 +240,11 @@
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide. The website is responsive and can be used on any device."
     },
     {
+      "name": "Ai Article Summarizer",
+      "url": "https://ai-url-summarizer.netlify.app/",
+      "description": "A website that takes an article URL as input and generates an article summary using the OpenAI API. The website is responsive and can be used on any device."
+    },
+    {
       "name": "Modern Bank UI/UX",
       "url": "https://bank-app-devdesigner.netlify.app/",
       "description": "A modern bank website built with ReactJs and Tailwindcss. It provides a user-friendly interface. The website is responsive and can be used on any device."
