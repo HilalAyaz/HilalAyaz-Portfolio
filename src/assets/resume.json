@@ -241,7 +241,7 @@
     },
     {
       "name": "Ai Article Summarizer",
-      "url": "https://ai-url-summarizer.netlify.app/",
+      "url": "https://web-url-summary.netlify.app/",
       "description": "A website that takes an article URL as input and generates an article summary using the OpenAI API. The website is responsive and can be used on any device."
     },
     {
