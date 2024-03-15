@@ -245,7 +245,7 @@
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide. The website is responsive and can be used on any device."
     },
     {
-      "name": "Ai Article Summarizer",
+      "name": "AI Article Summarizer",
       "url": "https://web-url-summary.netlify.app/",
       "description": "A website that takes an article URL as input and generates an article summary using the OpenAI API. The website is responsive and can be used on any device."
     },
@@ -319,7 +319,7 @@
     {
       "name": "Portfolio",
       "url": "https://devdesignerpk.netlify.app/",
-      "description": "A personal portfolio website developed using HTML and Tailwind CSS."
+      "description": "A personal portfolio website developed using HTML and Tailwind CSS. The website is responsive and can be used on any device"
     },
     {
       "name": "Ahadees App",
@@ -340,7 +340,7 @@
     {
       "name": "Landing Page",
       "url": "https://gaming-shop-devdesigner.netlify.app/",
-      "description": "A visually appealing landing page created with ReactJS, designed to captivate visitors and encourage engagement with its content."
+      "description": "A visually appealing landing page created with ReactJS, designed to captivate visitors and encourage engagement with its content.The website is responsive and can be used on any device"
     },
     {
       "name": "Rock-Paper-Scissors",
