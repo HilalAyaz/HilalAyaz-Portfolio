@@ -235,6 +235,11 @@
       "description": "Inspiro is a Fullstack Website that empowers creators with the ability to create, delete, and update AI prompts, all while ensuring security through Google authentication. Built with Next.js 14 and Tailwind CSS, this full-stack application enables tech enthusiasts to explore and refine their ideas with ease."
     },
     {
+      "name": "ArtIQnova",
+      "url": "https://art-iq-nova.vercel.app/",
+      "description": "ArtIQnova is a Full Stack website Built with Next.js 14 that allows users to generate art using CloudinaryAI. User Authentication is handled by Clerk, payments are handled by Stripe and the details are stored in MongoDB. It is responsive and can be used on any device."
+    },
+    {
       "name": "Weather App",
       "url": "https://weather-app-devdesigner.netlify.app/",
       "description": "A weather forecasting application built with Next and TypeScript, providing real-time weather updates, forecasts, and interactive maps for locations worldwide. The website is responsive and can be used on any device."
