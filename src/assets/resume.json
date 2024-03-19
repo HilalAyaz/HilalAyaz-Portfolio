@@ -235,6 +235,11 @@
       "description": "Inspiro is a Fullstack Website that empowers creators with the ability to create, delete, and update AI prompts, all while ensuring security through Google authentication. Built with Next.js 14 and Tailwind CSS, this full-stack application enables tech enthusiasts to explore and refine their ideas with ease."
     },
     {
+      "name": "3D Portfolio",
+      "url": "https://hilalayaz-3d-portfolio.netlify.app/",
+      "description": "A 3D portfolio website built with React and Three.js, designed to showcase my skills and projects. The website is responsive and can be used on any device."
+    },
+    {
       "name": "ArtIQnova",
       "url": "https://art-iq-nova.vercel.app/",
       "description": "ArtIQnova is a Full Stack website Built with Next.js 14 that allows users to generate art using CloudinaryAI. User Authentication is handled by Clerk, payments are handled by Stripe and the details are stored in MongoDB. It is responsive and can be used on any device."
@@ -319,7 +324,7 @@
     {
       "name": "Portfolio",
       "url": "https://devdesignerpk.netlify.app/",
-      "description": "A personal portfolio website developed using HTML and Tailwind CSS. The website is responsive and can be used on any device"
+      "description": "A personal portfolio website developed using HTML and Tailwind CSS. The website is responsive and can be used on any device."
     },
     {
       "name": "Ahadees App",
