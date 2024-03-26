@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Sling as Hamburger } from 'hamburger-react'
 import '../styles/Navbar.css'
-
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -18,7 +17,7 @@ const Navbar = () => {
         className={`navbar-links ${isMobileMenuOpen ? 'open' : ''}`}
         initial={false}
         animate={{ height: isMobileMenuOpen ? 'auto' : 0 }}
-        transition={{ duration: .6 }}
+        transition={{ duration: 0.6 }}
       >
         <li>
           <Link to='/'>Home</Link>

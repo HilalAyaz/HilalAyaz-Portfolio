@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaArrowCircleUp } from 'react-icons/fa'
+import NavImage from '../assets/NavImage.png'
 
 const Footer = () => {
   const [showScrollButton, setShowScrollButton] = useState(false)
@@ -89,6 +90,21 @@ const Footer = () => {
         <span style={dotsStyle}></span>
         <span style={dotsStyle}></span>
         <span style={dotsStyle}></span>
+      </div>
+      <div>
+        <img
+          src={NavImage}
+          alt='Hilal'
+          className='profile-image'
+          style={{
+            width: '150px',
+            height: 'auto',
+            margin: '10px',
+            borderRadius: '50%',
+            marginLeft: '80px',
+            borderBottom: '2px solid blueviolet'
+          }}
+        />
       </div>
       <div
         style={{
