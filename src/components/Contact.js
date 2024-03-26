@@ -6,6 +6,9 @@ import { useForm, ValidationError } from '@formspree/react'
 const ContactForm = () => {
   const [state, handleSubmit] = useForm('xayrjndb')
 
+  // Check if state.errors is null or undefined before accessing its length
+  const hasErrors = state.errors && state.errors.length > 0;
+
   return (
     <motion.div
       className='contact-container glass-effect'
@@ -35,6 +38,7 @@ const ContactForm = () => {
               placeholder="What's your name?"
               type='text'
               name='name'
+              required // Adding required attribute for validation
             />
             <input
               className='contact-input'
@@ -42,6 +46,7 @@ const ContactForm = () => {
               placeholder='Your Email?'
               type='email'
               name='email'
+              required // Adding required attribute for validation
             />
           </div>
           <div>
@@ -51,6 +56,7 @@ const ContactForm = () => {
               rows='10'
               placeholder='Type your message here...'
               name='message'
+              required // Adding required attribute for validation
             ></textarea>
           </div>
           <ValidationError
@@ -62,7 +68,7 @@ const ContactForm = () => {
             <button
               className='contact-submit'
               type='submit'
-              disabled={state.submitting}
+              disabled={state.submitting || hasErrors}
             >
               {state.submitting ? 'Sending...' : 'Send message'}
             </button>
