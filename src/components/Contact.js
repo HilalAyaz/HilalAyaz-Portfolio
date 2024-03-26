@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import '../styles/Contact.css'
 import { useForm, ValidationError } from '@formspree/react'
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm('xayrjndb')
+  const [successMessageVisible, setSuccessMessageVisible] = useState(false);
 
-  // Check if state.errors is null or undefined before accessing its length
-  const hasErrors = state.errors && state.errors.length > 0;
+  useEffect(() => {
+    if (state.succeeded) {
+      document.getElementById('contact-form').reset();
+      setSuccessMessageVisible(true);
+      setTimeout(() => {
+        setSuccessMessageVisible(false);
+      }, 5000);
+    }
+  }, [state.succeeded]);
 
   return (
     <motion.div
@@ -22,7 +30,7 @@ const ContactForm = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Let's Talk
+      Get In Touch, Don't Be Shy! 
       </motion.h3>
       <motion.section
         className='contact-form'
@@ -30,7 +38,7 @@ const ContactForm = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <form onSubmit={handleSubmit}>
+        <form id='contact-form' onSubmit={handleSubmit}>
           <div className='contact-input-container'>
             <input
               className='contact-input name'
@@ -38,7 +46,7 @@ const ContactForm = () => {
               placeholder="What's your name?"
               type='text'
               name='name'
-              required // Adding required attribute for validation
+              required 
             />
             <input
               className='contact-input'
@@ -46,7 +54,7 @@ const ContactForm = () => {
               placeholder='Your Email?'
               type='email'
               name='email'
-              required // Adding required attribute for validation
+              required 
             />
           </div>
           <div>
@@ -54,9 +62,10 @@ const ContactForm = () => {
               className='contact-textarea'
               cols='40'
               rows='10'
-              placeholder='Type your message here...'
+              placeholder='What do you want to say?'
+              type='text'
               name='message'
-              required // Adding required attribute for validation
+              required 
             ></textarea>
           </div>
           <ValidationError
@@ -68,15 +77,15 @@ const ContactForm = () => {
             <button
               className='contact-submit'
               type='submit'
-              disabled={state.submitting || hasErrors}
+              disabled={state.submitting}
             >
               {state.submitting ? 'Sending...' : 'Send message'}
             </button>
           </div>
         </form>
       </motion.section>
-      {state.succeeded && (
-        <p>Thank you for your message! We will get back to you soon.</p>
+      {successMessageVisible && (
+        <p>Thank you for your message! I will get back to you soon.</p>
       )}
     </motion.div>
   )
