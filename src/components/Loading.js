@@ -48,14 +48,17 @@ export default function Loader () {
       >
         <h6
           style={{
-            fontSize: 'clamp(30px, 15vw, 120px)',
+            fontSize: 'clamp(28px, 15vw, 110px)',
             color: 'gray',
-            margin: 0
+            margin: 0,
+            letterSpacing: '2.5px',
+            textTransform :'uppercase'
+            
           }}
         >
           {' '}
-          <motion.span initial={{ y: '100%' }}>Dev</motion.span>
-          <motion initial={{ y: '100%' }}>Designer</motion>
+          <motion.span initial={{ y: '100%' }}>Hilal</motion.span>
+          <motion initial={{ y: '100%' }}>Ayaz</motion>
         </h6>
       </motion.div>
     </div>
