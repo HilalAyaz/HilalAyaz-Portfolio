@@ -2,17 +2,12 @@ import { motion } from 'framer-motion'
 import {
   FaLinkedin,
   FaGithub,
-  FaFacebook,
   FaInstagram,
   FaArrowCircleRight,
   FaYoutube,
-  FaCodepen,
-  FaStackOverflow,
-  FaMedium,
   FaBehance,
   FaArrowCircleDown
 } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
 
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
@@ -80,14 +75,7 @@ const Home = () => {
         >
           <FaGithub style={{ color: '#fff' }} />
         </a>
-        <a
-          href={contact.facebook.url}
-          target='_blank'
-          rel='noreferrer'
-          title='Facebook'
-        >
-          <FaFacebook style={{ color: '#3b5998' }} />
-        </a>
+        
         <a
           href={contact.instagram.url}
           target='_blank'
@@ -96,14 +84,7 @@ const Home = () => {
         >
           <FaInstagram style={{ color: '#c13584' }} />
         </a>
-        <a
-          href={contact.twitter.url}
-          target='_blank'
-          rel='noreferrer'
-          title='Twitter'
-        >
-          <FaXTwitter style={{ color: '#14171A' }} />
-        </a>
+        
         <a
           href={contact.youtube.url}
           target='_blank'
@@ -112,30 +93,9 @@ const Home = () => {
         >
           <FaYoutube style={{ color: '#ff0000' }} />
         </a>
-        <a
-          href={contact.codepen.url}
-          target='_blank'
-          rel='noreferrer'
-          title='CodePen'
-        >
-          <FaCodepen style={{ color: '#fff' }} />
-        </a>
-        <a
-          href={contact.stackoverflow.url}
-          target='_blank'
-          rel='noreferrer'
-          title='Stack Overflow'
-        >
-          <FaStackOverflow style={{ color: '#f48024' }} />
-        </a>
-        <a
-          href={contact.medium.url}
-          target='_blank'
-          rel='noreferrer'
-          title='Medium'
-        >
-          <FaMedium style={{ color: '#00ab6c' }} />
-        </a>
+        
+        
+        
         <a
           href={contact.behance.url}
           target='_blank'

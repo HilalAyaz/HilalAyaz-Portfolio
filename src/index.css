@@ -24,7 +24,7 @@ body::before {
 
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
   background-color: #010002;
 }
 
