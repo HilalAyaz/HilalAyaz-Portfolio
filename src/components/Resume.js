@@ -11,6 +11,7 @@ const Resume = () => {
     title,
     contact,
     summary,
+    experience,
     education,
     certifications,
     expertise,
@@ -72,7 +73,23 @@ const Resume = () => {
           <FaMapLocationDot /> Location: {contact.location}
         </p>
       </motion.div>
+      <motion.div
+        className='section experience'
+        initial={{ opacity: 0, x: 200 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
+        <h3>Experience</h3>
+        {experience.map((exp, index) => (
+          <div key={index}>
+            <p>{exp.title}</p>
 
+            <p>{exp.platform}</p>
+            <p>{exp.date}</p>
+            <br />
+          </div>
+        ))}
+      </motion.div>
       <motion.div
         className='section education'
         initial={{ opacity: 0, x: 200 }}
@@ -93,6 +110,8 @@ const Resume = () => {
             >
               Credentials <FiExternalLink className='icons' />
             </a>
+            <br />
+            <br />
           </div>
         ))}
       </motion.div>
