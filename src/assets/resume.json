@@ -46,7 +46,7 @@
     },
     "location": "Pakistan"
   },
-  "summary": "Skilled web developer with a Bachelor's degree in Computer Science from Sarhad University, adept at creating dynamic and user-friendly websites. Proficient in various programming languages and frameworks to deliver high-quality digital solutions.",
+  "summary": "Frontend Developer skilled in React.js, Next.js, JavaScript, and CSS. Experienced in building responsive UIs, optimizing performance, and adding animations (GSAP, Framer Motion). Familiar with backend integration using Node.js and Express.js. Quick learner with strong problem-solving skills and expertise in Git & GitHub. Passionate about creating user-friendly, optimized interfaces.",
   "education": [
     {
       "degree": "Bachelor's in Computer Science",
@@ -86,14 +86,14 @@
   ],
   "experience": [
     {
-      "title": "MBB Engineer",
-      "platform": "Huawei Technologies",
-      "date": "September 2024- Present",
+      "title": "MBB Design Engineer",
+      "platform": "Netkom Technologies",
+      "date": "September 2024- March 2025",
       "link": ""
     },
     {
       "title": "MBB Intern Engineer",
-      "platform": "Huawei Technologies",
+      "platform": "Netkom Technologies",
       "date": "June 2024 - August 2024",
       "link": ""
     }
