@@ -8,17 +8,17 @@ export default function Loader () {
     const animateContainers = async () => {
       // Animate the v-container
       await containerAnimationControls.start({
-        transition: { duration: 1.5, delay: 0.5 }
+        transition: { duration: 1.5, delay: 0.7 }
       })
 
       await containerAnimationControls.start({
         y: 0,
-        transition: { duration: 1, delay: 0.5 }
+        transition: { duration: 1, delay: 0.6 }
       })
 
       await containerAnimationControls.start({
         opacity: 0,
-        transition: { duration: 1, delay: 0.3 }
+        transition: { duration: 1, delay: 0.4 }
       })
     }
 
