@@ -23,7 +23,7 @@
 }
 
 .profile-image {
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 -10px 20px 50px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@ h5 {
     text-align: justify;
     margin: 0;
     font-size: 18px;
-    color: rgba(187, 187, 187);
+    color: rgb(133, 133, 133);
 }
 
 button {

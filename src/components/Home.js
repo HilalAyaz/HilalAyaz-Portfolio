@@ -11,7 +11,7 @@ import {
 
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
-import CV from '../assets/Hilal Ayaz- Frontend Devloper.pdf'
+import CV from '../assets/Hilal Ayaz- MERN Stack Developer.pdf'
 import resumeData from '../assets/resume.json'
 import TechStack from './tech-stack.js'
 
@@ -21,7 +21,7 @@ const Home = () => {
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = CV
-    link.download = 'Hilal Ayaz- Frontend Devloper.pdf'
+    link.download = 'Hilal Ayaz- MERN Stack Developer.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -75,7 +75,7 @@ const Home = () => {
         >
           <FaGithub style={{ color: '#fff' }} />
         </a>
-        
+
         <a
           href={contact.instagram.url}
           target='_blank'
@@ -84,7 +84,7 @@ const Home = () => {
         >
           <FaInstagram style={{ color: '#c13584' }} />
         </a>
-        
+
         <a
           href={contact.youtube.url}
           target='_blank'
@@ -93,9 +93,7 @@ const Home = () => {
         >
           <FaYoutube style={{ color: '#ff0000' }} />
         </a>
-        
-        
-        
+
         <a
           href={contact.behance.url}
           target='_blank'

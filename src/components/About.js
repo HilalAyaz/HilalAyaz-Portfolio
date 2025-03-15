@@ -24,13 +24,26 @@ const About = () => {
       >
         <h3>About Me</h3>
         <h5>
-          As a full stack web developer, Hilal excels in deciphering intricate
-          codes and translating creative visions into sophisticated websites
-          with elegant designs. He strives to remain at the forefront of
-          technological advancements to deliver cutting-edge solutions. With a
-          collaborative approach, he aims to actualize clients' visions with
-          flair and finesse, ensuring their projects are brought to life
-          seamlessly.
+          Experienced MERN Stack Developer with a strong command of React.js,
+          Next.js, JavaScript, and CSS, specializing in building responsive,
+          high-performance UIs with smooth animations and interactive
+          components. Skilled in developing scalable and efficient backend
+          solutions using Node.js, Express.js, and MongoDB, ensuring seamless
+          data management and API integrations. 
+          <br/>
+          <br /> 
+          Proficient in optimizing performance, implementing best coding
+          practices, and maintaining clean, modular code for maintainability and
+          scalability. Adept at using Git & GitHub for version control,
+          collaborating in team environments, and managing projects efficiently.{' '}
+          <br />
+          <br />
+          A quick learner and problem solver, always eager to explore new
+          technologies and frameworks to improve development processes.
+          Passionate about creating intuitive, user-friendly full-stack
+          applications that blend functionality with engaging design. Dedicated
+          to continuous learning and professional growth, staying up-to-date
+          with the latest industry trends and advancements. <br />
         </h5>
         <Link to='/resume'>
           <motion.button
