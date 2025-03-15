@@ -62,7 +62,7 @@ const ContactForm = () => {
               className='contact-textarea'
               cols='40'
               rows='10'
-              placeholder='What do you want to say?'
+              placeholder='Want to Create something cool? Let me know!'
               type='text'
               name='message'
               required 
