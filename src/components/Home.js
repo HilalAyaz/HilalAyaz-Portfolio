@@ -11,7 +11,7 @@ import {
 
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
-import CV from '../assets/Hilal Ayaz- MERN Stack Developer.pdf'
+import CV from '../assets/Hilal Ayaz- Full Stack Developer.pdf'
 import resumeData from '../assets/resume.json'
 import TechStack from './tech-stack.js'
 
@@ -21,7 +21,7 @@ const Home = () => {
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = CV
-    link.download = 'Hilal Ayaz- MERN Stack Developer.pdf'
+    link.download = 'Hilal Ayaz- Full Stack Developer.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)

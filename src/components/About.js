@@ -24,26 +24,18 @@ const About = () => {
       >
         <h3>About Me</h3>
         <h5>
-          Experienced MERN Stack Developer with a strong command of React.js,
-          Next.js, JavaScript, and CSS, specializing in building responsive,
-          high-performance UIs with smooth animations and interactive
-          components. Skilled in developing scalable and efficient backend
-          solutions using Node.js, Express.js, and MongoDB, ensuring seamless
-          data management and API integrations. 
-          <br/>
-          <br /> 
-          Proficient in optimizing performance, implementing best coding
-          practices, and maintaining clean, modular code for maintainability and
-          scalability. Adept at using Git & GitHub for version control,
-          collaborating in team environments, and managing projects efficiently.{' '}
+          Full Stack Developer specializing in building modern, responsive web
+          applications using React.js, Next.js, JavaScript, and CSS. I craft
+          clean, interactive UIs with smooth animations and focus on performance
+          and scalability. On the backend, I develop robust APIs and databases
+          using Node.js, Express.js, and MongoDB.
           <br />
           <br />
-          A quick learner and problem solver, always eager to explore new
-          technologies and frameworks to improve development processes.
-          Passionate about creating intuitive, user-friendly full-stack
-          applications that blend functionality with engaging design. Dedicated
-          to continuous learning and professional growth, staying up-to-date
-          with the latest industry trends and advancements. <br />
+          Proficient in Git/GitHub, I thrive in collaborative environments and
+          manage projects with efficiency. I'm passionate about creating
+          user-friendly, visually appealing apps and continuously exploring new
+          tools and technologies to enhance my craft.
+          <br />
         </h5>
         <Link to='/resume'>
           <motion.button

@@ -50,7 +50,7 @@ h5 {
     text-align: justify;
     margin: 0;
     font-size: 18px;
-    color: rgb(133, 133, 133);
+    color: rgb(241, 241, 241);
 }
 
 button {
@@ -60,7 +60,7 @@ button {
     background-color: blueviolet;
     padding: 12px 10px;
     border: none;
-    color: rgba(187, 187, 187, 0.8);
+    color: rgb(243, 243, 243);
     font-size: 18px;
     letter-spacing: 1px;
     border-radius: 8px;
